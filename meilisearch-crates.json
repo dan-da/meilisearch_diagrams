@@ -11,5 +11,5 @@
     "meilisearch-types": {"git": "https://github.com/meilisearch/meilisearch/", "path": "meilisearch-types"},
     "meilisearch": {"git": "https://github.com/meilisearch/meilisearch/", "path": "meilisearch"},
     "milli": {"git": "https://github.com/meilisearch/meilisearch/", "path": "milli"},
-    "permissive-json-pointer": {"git": "https://github.com/meilisearch/meilisearch/", "path": "permissive-json-pointer"},
+    "permissive-json-pointer": {"git": "https://github.com/meilisearch/meilisearch/", "path": "permissive-json-pointer"}
 }
