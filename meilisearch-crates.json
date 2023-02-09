@@ -1,7 +1,7 @@
 {
     "dump": {"git": "https://github.com/meilisearch/meilisearch/", "path": "dump"},
     "file-store": {"git": "https://github.com/meilisearch/meilisearch/", "path": "file-store"},
-    "file-parser": {"git": "https://github.com/meilisearch/meilisearch/", "path": "file-parser"},
+    "filter-parser": {"git": "https://github.com/meilisearch/meilisearch/", "path": "filter-parser"},
     "flatten-serde-json": {"git": "https://github.com/meilisearch/meilisearch/", "path": "flatten-serde-json"},
     "grafana-dashboards": {"git": "https://github.com/meilisearch/meilisearch/", "path": "grafana-dashboards"},
     "index-scheduler": {"git": "https://github.com/meilisearch/meilisearch/", "path": "index-scheduler"},
