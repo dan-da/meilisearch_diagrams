@@ -226,28 +226,29 @@
 <!-- ndMeilisearchHttpError -->
 <g id="node8" class="node"><title>ndMeilisearchHttpError</title>
 <g id="a_node8_9"><a xlink:href="https://github.com/meilisearch/meilisearch//blob/master/src/error.rs#:~:text=enum%20MeilisearchHttpError" xlink:title="&lt;TABLE&gt;">
-<polygon fill="yellow" stroke="none" points="2646,-1894 2646,-1931 2983,-1931 2983,-1894 2646,-1894"/>
-<polygon fill="none" stroke="black" points="2646,-1894 2646,-1931 2983,-1931 2983,-1894 2646,-1894"/>
-<text text-anchor="start" x="2742" y="-1909.8" font-family="Arial" font-weight="bold" font-size="14.00">MeilisearchHttpError</text>
-<polygon fill="white" stroke="none" points="2646,-1632 2646,-1894 2983,-1894 2983,-1632 2646,-1632"/>
-<polygon fill="none" stroke="black" points="2646,-1632 2646,-1894 2983,-1894 2983,-1632 2646,-1632"/>
-<text text-anchor="start" x="2657" y="-1871.8" font-family="Arial" font-size="14.00">MissingContentType(Vec&lt;String&gt;)</text>
-<text text-anchor="start" x="2657" y="-1856.8" font-family="Arial" font-size="14.00">InvalidContentType(String, Vec&lt;String&gt;)</text>
-<text text-anchor="start" x="2657" y="-1841.8" font-family="Arial" font-size="14.00">DocumentNotFound(String)</text>
-<text text-anchor="start" x="2657" y="-1826.8" font-family="Arial" font-size="14.00">InvalidExpression(&amp;&#39;static [&amp;&#39;static str], Value)</text>
-<text text-anchor="start" x="2657" y="-1811.8" font-family="Arial" font-size="14.00">MissingPayload(PayloadType)</text>
-<text text-anchor="start" x="2657" y="-1796.8" font-family="Arial" font-size="14.00">PayloadTooLarge</text>
-<text text-anchor="start" x="2657" y="-1781.8" font-family="Arial" font-size="14.00">SwapIndexPayloadWrongLength(Vec&lt;IndexUid&gt;)</text>
-<text text-anchor="start" x="2657" y="-1766.8" font-family="Arial" font-size="14.00">IndexUid(IndexUidFormatError)</text>
-<text text-anchor="start" x="2657" y="-1751.8" font-family="Arial" font-size="14.00">SerdeJson(serde_json::Error)</text>
-<text text-anchor="start" x="2657" y="-1736.8" font-family="Arial" font-size="14.00">HeedError(meilisearch_types::heed::Error)</text>
-<text text-anchor="start" x="2657" y="-1721.8" font-family="Arial" font-size="14.00">IndexScheduler(index_scheduler::Error)</text>
-<text text-anchor="start" x="2657" y="-1706.8" font-family="Arial" font-size="14.00">Milli(meilisearch_types::milli::Error)</text>
-<text text-anchor="start" x="2657" y="-1691.8" font-family="Arial" font-size="14.00">Payload(PayloadError)</text>
-<text text-anchor="start" x="2657" y="-1676.8" font-family="Arial" font-size="14.00">FileStore(file_store::Error)</text>
-<text text-anchor="start" x="2657" y="-1661.8" font-family="Arial" font-size="14.00">DocumentFormat(DocumentFormatError)</text>
-<text text-anchor="start" x="2657" y="-1646.8" font-family="Arial" font-size="14.00">Join(JoinError)</text>
-<polygon fill="none" stroke="black" points="2644.5,-1631.5 2644.5,-1932.5 2983.5,-1932.5 2983.5,-1631.5 2644.5,-1631.5"/>
+<polygon fill="yellow" stroke="none" points="2646,-1902 2646,-1939 2983,-1939 2983,-1902 2646,-1902"/>
+<polygon fill="none" stroke="black" points="2646,-1902 2646,-1939 2983,-1939 2983,-1902 2646,-1902"/>
+<text text-anchor="start" x="2742" y="-1917.8" font-family="Arial" font-weight="bold" font-size="14.00">MeilisearchHttpError</text>
+<polygon fill="white" stroke="none" points="2646,-1625 2646,-1902 2983,-1902 2983,-1625 2646,-1625"/>
+<polygon fill="none" stroke="black" points="2646,-1625 2646,-1902 2983,-1902 2983,-1625 2646,-1625"/>
+<text text-anchor="start" x="2657" y="-1879.8" font-family="Arial" font-size="14.00">MissingContentType(Vec&lt;String&gt;)</text>
+<text text-anchor="start" x="2657" y="-1864.8" font-family="Arial" font-size="14.00">CsvDelimiterWithWrongContentType(String)</text>
+<text text-anchor="start" x="2657" y="-1849.8" font-family="Arial" font-size="14.00">InvalidContentType(String, Vec&lt;String&gt;)</text>
+<text text-anchor="start" x="2657" y="-1834.8" font-family="Arial" font-size="14.00">DocumentNotFound(String)</text>
+<text text-anchor="start" x="2657" y="-1819.8" font-family="Arial" font-size="14.00">InvalidExpression(&amp;&#39;static [&amp;&#39;static str], Value)</text>
+<text text-anchor="start" x="2657" y="-1804.8" font-family="Arial" font-size="14.00">MissingPayload(PayloadType)</text>
+<text text-anchor="start" x="2657" y="-1789.8" font-family="Arial" font-size="14.00">PayloadTooLarge</text>
+<text text-anchor="start" x="2657" y="-1774.8" font-family="Arial" font-size="14.00">SwapIndexPayloadWrongLength(Vec&lt;IndexUid&gt;)</text>
+<text text-anchor="start" x="2657" y="-1759.8" font-family="Arial" font-size="14.00">IndexUid(IndexUidFormatError)</text>
+<text text-anchor="start" x="2657" y="-1744.8" font-family="Arial" font-size="14.00">SerdeJson(serde_json::Error)</text>
+<text text-anchor="start" x="2657" y="-1729.8" font-family="Arial" font-size="14.00">HeedError(meilisearch_types::heed::Error)</text>
+<text text-anchor="start" x="2657" y="-1714.8" font-family="Arial" font-size="14.00">IndexScheduler(index_scheduler::Error)</text>
+<text text-anchor="start" x="2657" y="-1699.8" font-family="Arial" font-size="14.00">Milli(meilisearch_types::milli::Error)</text>
+<text text-anchor="start" x="2657" y="-1684.8" font-family="Arial" font-size="14.00">Payload(PayloadError)</text>
+<text text-anchor="start" x="2657" y="-1669.8" font-family="Arial" font-size="14.00">FileStore(file_store::Error)</text>
+<text text-anchor="start" x="2657" y="-1654.8" font-family="Arial" font-size="14.00">DocumentFormat(DocumentFormatError)</text>
+<text text-anchor="start" x="2657" y="-1639.8" font-family="Arial" font-size="14.00">Join(JoinError)</text>
+<polygon fill="none" stroke="black" points="2644.5,-1624 2644.5,-1940 2983.5,-1940 2983.5,-1624 2644.5,-1624"/>
 </a>
 </g>
 </g>
@@ -271,8 +272,8 @@
 </g>
 <!-- ndPayloadError&#45;&gt;ndMeilisearchHttpError -->
 <g id="edge7" class="edge"><title>ndPayloadError&#45;&gt;ndMeilisearchHttpError</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2814,-2024.69C2814,-2001.54 2814,-1975.31 2814,-1948.87"/>
-<polygon fill="black" stroke="black" points="2814,-1948.72 2810,-1942.72 2814,-1936.72 2818,-1942.72 2814,-1948.72"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2814,-2024.69C2814,-2003.68 2814,-1980.13 2814,-1956.19"/>
+<polygon fill="black" stroke="black" points="2814,-1956.03 2810,-1950.03 2814,-1944.03 2818,-1950.03 2814,-1956.03"/>
 </g>
 <!-- ndSeqHandler -->
 <g id="node10" class="node"><title>ndSeqHandler</title>
@@ -775,29 +776,30 @@
 <!-- ndUpdateDocumentsQuery -->
 <g id="node36" class="node"><title>ndUpdateDocumentsQuery</title>
 <g id="a_node36_35"><a xlink:href="https://github.com/meilisearch/meilisearch//blob/master/src/routes/indexes/documents.rs#:~:text=struct%20UpdateDocumentsQuery" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="none" points="9,-1422 9,-1459 223,-1459 223,-1422 9,-1422"/>
-<polygon fill="none" stroke="black" points="9,-1422 9,-1459 223,-1459 223,-1422 9,-1422"/>
-<text text-anchor="start" x="30" y="-1437.8" font-family="Arial" font-weight="bold" font-size="14.00">UpdateDocumentsQuery</text>
-<polygon fill="white" stroke="none" points="9,-1385 9,-1422 223,-1422 223,-1385 9,-1385"/>
-<polygon fill="none" stroke="black" points="9,-1385 9,-1422 223,-1422 223,-1385 9,-1385"/>
-<text text-anchor="start" x="20" y="-1399.8" font-family="Arial" font-size="14.00">+ primary_key: Option&lt;String&gt;</text>
-<polygon fill="none" stroke="black" points="8,-1384 8,-1460 224,-1460 224,-1384 8,-1384"/>
+<polygon fill="lightblue" stroke="none" points="9,-1429 9,-1466 223,-1466 223,-1429 9,-1429"/>
+<polygon fill="none" stroke="black" points="9,-1429 9,-1466 223,-1466 223,-1429 9,-1429"/>
+<text text-anchor="start" x="30" y="-1444.8" font-family="Arial" font-weight="bold" font-size="14.00">UpdateDocumentsQuery</text>
+<polygon fill="white" stroke="none" points="9,-1377 9,-1429 223,-1429 223,-1377 9,-1377"/>
+<polygon fill="none" stroke="black" points="9,-1377 9,-1429 223,-1429 223,-1377 9,-1377"/>
+<text text-anchor="start" x="20" y="-1406.8" font-family="Arial" font-size="14.00">+ primary_key: Option&lt;String&gt;</text>
+<text text-anchor="start" x="20" y="-1391.8" font-family="Arial" font-size="14.00">+ csv_delimiter: Option&lt;u8&gt;</text>
+<polygon fill="none" stroke="black" points="8,-1376.5 8,-1467.5 224,-1467.5 224,-1376.5 8,-1376.5"/>
 </a>
 </g>
 </g>
 <!-- ndUpdateDocumentsQuery&#45;&gt;ndMockAnalytics -->
 <g id="edge29" class="edge"><title>ndUpdateDocumentsQuery&#45;&gt;ndMockAnalytics</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M137.291,-1379.84C158.578,-1342.83 194.765,-1289.84 241,-1260 298.606,-1222.83 345.399,-1275.2 391,-1224 463.801,-1142.27 435.628,-843.507 450,-735 459.113,-666.201 470.749,-586.902 478.286,-536.509"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M141.806,-1372.13C163.511,-1335.78 197.887,-1287.82 241,-1260 298.606,-1222.83 345.399,-1275.2 391,-1224 463.801,-1142.27 435.628,-843.507 450,-735 459.113,-666.201 470.749,-586.902 478.286,-536.509"/>
 <polygon fill="black" stroke="black" points="479.783,-526.519 482.752,-537.075 479.042,-531.463 478.301,-536.408 478.301,-536.408 478.301,-536.408 479.042,-531.463 473.851,-535.741 479.783,-526.519 479.783,-526.519"/>
 </g>
 <!-- ndUpdateDocumentsQuery&#45;&gt;ndSegmentAnalytics -->
 <g id="edge30" class="edge"><title>ndUpdateDocumentsQuery&#45;&gt;ndSegmentAnalytics</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M108.761,-1379.78C83.6376,-1225.74 10.7536,-672.145 182,-270 196.183,-236.694 220.984,-206.097 245.871,-181.222"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M107.563,-1372.35C81.4431,-1208.66 13.4002,-665.929 182,-270 196.183,-236.694 220.984,-206.097 245.871,-181.222"/>
 <polygon fill="black" stroke="black" points="253.234,-174.026 249.228,-184.234 249.658,-177.521 246.082,-181.016 246.082,-181.016 246.082,-181.016 249.658,-177.521 242.937,-177.797 253.234,-174.026 253.234,-174.026"/>
 </g>
 <!-- ndUpdateDocumentsQuery&#45;&gt;ndDocumentsAggregator -->
 <g id="edge31" class="edge"><title>ndUpdateDocumentsQuery&#45;&gt;ndDocumentsAggregator</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M135.184,-1379.74C155.514,-1341.28 191.536,-1286.07 241,-1260 360.348,-1197.11 731.12,-1293.07 847,-1224 904.962,-1189.45 943.895,-1123.15 967.691,-1068.44"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M139.232,-1372.25C160.128,-1334.41 194.667,-1284.42 241,-1260 360.348,-1197.11 731.12,-1293.07 847,-1224 904.962,-1189.45 943.895,-1123.15 967.691,-1068.44"/>
 <polygon fill="black" stroke="black" points="971.67,-1059.07 971.903,-1070.03 969.716,-1063.67 967.761,-1068.27 967.761,-1068.27 967.761,-1068.27 969.716,-1063.67 963.619,-1066.51 971.67,-1059.07 971.67,-1059.07"/>
 </g>
 <!-- ndIndexView -->
