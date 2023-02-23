@@ -2210,37 +2210,38 @@
 <!-- ndFacetDistribution -->
 <g id="node95" class="node"><title>ndFacetDistribution</title>
 <g id="a_node95_74"><a xlink:href="https://github.com/meilisearch/meilisearch//blob/master/src/search/facet/facet_distribution.rs#:~:text=struct%20FacetDistribution" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="none" points="13170,-1570 13170,-1607 14306,-1607 14306,-1570 13170,-1570"/>
-<polygon fill="none" stroke="black" points="13170,-1570 13170,-1607 14306,-1607 14306,-1570 13170,-1570"/>
-<text text-anchor="start" x="13678" y="-1585.8" font-family="Arial" font-weight="bold" font-size="14.00">FacetDistribution</text>
-<polygon fill="white" stroke="none" points="13170,-1473 13170,-1570 14306,-1570 14306,-1473 13170,-1473"/>
-<polygon fill="none" stroke="black" points="13170,-1473 13170,-1570 14306,-1570 14306,-1473 13170,-1473"/>
-<text text-anchor="start" x="13181" y="-1547.8" font-family="Arial" font-size="14.00">&#45; facets: Option&lt;HashSet&lt;String&gt;&gt;</text>
-<text text-anchor="start" x="13181" y="-1532.8" font-family="Arial" font-size="14.00">&#45; candidates: Option&lt;RoaringBitmap&gt;</text>
-<text text-anchor="start" x="13181" y="-1517.8" font-family="Arial" font-size="14.00">&#45; max_values_per_facet: usize</text>
-<text text-anchor="start" x="13181" y="-1502.8" font-family="Arial" font-size="14.00">&#45; rtxn: &amp;&#39;a heed::RoTxn&lt;&#39;a&gt;</text>
-<text text-anchor="start" x="13181" y="-1487.8" font-family="Arial" font-size="14.00">&#45; index: &amp;&#39;a Index</text>
-<polygon fill="white" stroke="none" points="13170,-1286 13170,-1473 14306,-1473 14306,-1286 13170,-1286"/>
-<polygon fill="none" stroke="black" points="13170,-1286 13170,-1473 14306,-1473 14306,-1286 13170,-1286"/>
-<text text-anchor="start" x="13181" y="-1450.8" font-family="Arial" font-size="14.00">&#45; new(rtxn: &amp;&#39;a heed::RoTxn, index: &amp;&#39;a Index) &#45;&gt; FacetDistribution&lt;&#39;a&gt;</text>
-<text text-anchor="start" x="13181" y="-1435.8" font-family="Arial" font-size="14.00">&#45; facets(&amp;mut self, names: I) &#45;&gt; &amp;mut Self</text>
-<text text-anchor="start" x="13181" y="-1420.8" font-family="Arial" font-size="14.00">&#45; max_values_per_facet(&amp;mut self, max: usize) &#45;&gt; &amp;mut Self</text>
-<text text-anchor="start" x="13181" y="-1405.8" font-family="Arial" font-size="14.00">&#45; candidates(&amp;mut self, candidates: RoaringBitmap) &#45;&gt; &amp;mut Self</text>
-<text text-anchor="start" x="13181" y="-1390.8" font-family="Arial" font-size="14.00">&#45; facet_distribution_from_documents(&amp;self, field_id: FieldId, facet_type: FacetType, candidates: &amp;RoaringBitmap, distribution: &amp;mut BTreeMap&lt;String, u64&gt;) &#45;&gt; heed::Result&lt;()&gt;</text>
-<text text-anchor="start" x="13181" y="-1375.8" font-family="Arial" font-size="14.00">&#45; facet_numbers_distribution_from_facet_levels(&amp;self, field_id: FieldId, candidates: &amp;RoaringBitmap, distribution: &amp;mut BTreeMap&lt;String, u64&gt;) &#45;&gt; heed::Result&lt;()&gt;</text>
-<text text-anchor="start" x="13181" y="-1360.8" font-family="Arial" font-size="14.00">&#45; facet_strings_distribution_from_facet_levels(&amp;self, field_id: FieldId, candidates: &amp;RoaringBitmap, distribution: &amp;mut BTreeMap&lt;String, u64&gt;) &#45;&gt; heed::Result&lt;()&gt;</text>
-<text text-anchor="start" x="13181" y="-1345.8" font-family="Arial" font-size="14.00">&#45; facet_values_from_raw_facet_database(&amp;self, field_id: FieldId) &#45;&gt; heed::Result&lt;BTreeMap&lt;String, u64&gt;&gt;</text>
-<text text-anchor="start" x="13181" y="-1330.8" font-family="Arial" font-size="14.00">&#45; facet_values(&amp;self, field_id: FieldId) &#45;&gt; heed::Result&lt;BTreeMap&lt;String, u64&gt;&gt;</text>
-<text text-anchor="start" x="13181" y="-1315.8" font-family="Arial" font-size="14.00">&#45; execute(&amp;self) &#45;&gt; Result&lt;BTreeMap&lt;String, BTreeMap&lt;String, u64&gt;&gt;&gt;</text>
-<text text-anchor="start" x="13181" y="-1300.8" font-family="Arial" font-size="14.00">&#45; fmt(&amp;self, f: &amp;mut fmt::Formatter) &#45;&gt; fmt::Result</text>
-<polygon fill="none" stroke="black" points="13169,-1285.5 13169,-1608.5 14307,-1608.5 14307,-1285.5 13169,-1285.5"/>
+<polygon fill="lightblue" stroke="none" points="13170,-1578 13170,-1615 14306,-1615 14306,-1578 13170,-1578"/>
+<polygon fill="none" stroke="black" points="13170,-1578 13170,-1615 14306,-1615 14306,-1578 13170,-1578"/>
+<text text-anchor="start" x="13678" y="-1593.8" font-family="Arial" font-weight="bold" font-size="14.00">FacetDistribution</text>
+<polygon fill="white" stroke="none" points="13170,-1481 13170,-1578 14306,-1578 14306,-1481 13170,-1481"/>
+<polygon fill="none" stroke="black" points="13170,-1481 13170,-1578 14306,-1578 14306,-1481 13170,-1481"/>
+<text text-anchor="start" x="13181" y="-1555.8" font-family="Arial" font-size="14.00">&#45; facets: Option&lt;HashSet&lt;String&gt;&gt;</text>
+<text text-anchor="start" x="13181" y="-1540.8" font-family="Arial" font-size="14.00">&#45; candidates: Option&lt;RoaringBitmap&gt;</text>
+<text text-anchor="start" x="13181" y="-1525.8" font-family="Arial" font-size="14.00">&#45; max_values_per_facet: usize</text>
+<text text-anchor="start" x="13181" y="-1510.8" font-family="Arial" font-size="14.00">&#45; rtxn: &amp;&#39;a heed::RoTxn&lt;&#39;a&gt;</text>
+<text text-anchor="start" x="13181" y="-1495.8" font-family="Arial" font-size="14.00">&#45; index: &amp;&#39;a Index</text>
+<polygon fill="white" stroke="none" points="13170,-1279 13170,-1481 14306,-1481 14306,-1279 13170,-1279"/>
+<polygon fill="none" stroke="black" points="13170,-1279 13170,-1481 14306,-1481 14306,-1279 13170,-1279"/>
+<text text-anchor="start" x="13181" y="-1458.8" font-family="Arial" font-size="14.00">&#45; new(rtxn: &amp;&#39;a heed::RoTxn, index: &amp;&#39;a Index) &#45;&gt; FacetDistribution&lt;&#39;a&gt;</text>
+<text text-anchor="start" x="13181" y="-1443.8" font-family="Arial" font-size="14.00">&#45; facets(&amp;mut self, names: I) &#45;&gt; &amp;mut Self</text>
+<text text-anchor="start" x="13181" y="-1428.8" font-family="Arial" font-size="14.00">&#45; max_values_per_facet(&amp;mut self, max: usize) &#45;&gt; &amp;mut Self</text>
+<text text-anchor="start" x="13181" y="-1413.8" font-family="Arial" font-size="14.00">&#45; candidates(&amp;mut self, candidates: RoaringBitmap) &#45;&gt; &amp;mut Self</text>
+<text text-anchor="start" x="13181" y="-1398.8" font-family="Arial" font-size="14.00">&#45; facet_distribution_from_documents(&amp;self, field_id: FieldId, facet_type: FacetType, candidates: &amp;RoaringBitmap, distribution: &amp;mut BTreeMap&lt;String, u64&gt;) &#45;&gt; heed::Result&lt;()&gt;</text>
+<text text-anchor="start" x="13181" y="-1383.8" font-family="Arial" font-size="14.00">&#45; facet_numbers_distribution_from_facet_levels(&amp;self, field_id: FieldId, candidates: &amp;RoaringBitmap, distribution: &amp;mut BTreeMap&lt;String, u64&gt;) &#45;&gt; heed::Result&lt;()&gt;</text>
+<text text-anchor="start" x="13181" y="-1368.8" font-family="Arial" font-size="14.00">&#45; facet_strings_distribution_from_facet_levels(&amp;self, field_id: FieldId, candidates: &amp;RoaringBitmap, distribution: &amp;mut BTreeMap&lt;String, u64&gt;) &#45;&gt; heed::Result&lt;()&gt;</text>
+<text text-anchor="start" x="13181" y="-1353.8" font-family="Arial" font-size="14.00">&#45; facet_values_from_raw_facet_database(&amp;self, field_id: FieldId) &#45;&gt; heed::Result&lt;BTreeMap&lt;String, u64&gt;&gt;</text>
+<text text-anchor="start" x="13181" y="-1338.8" font-family="Arial" font-size="14.00">&#45; facet_values(&amp;self, field_id: FieldId) &#45;&gt; heed::Result&lt;BTreeMap&lt;String, u64&gt;&gt;</text>
+<text text-anchor="start" x="13181" y="-1323.8" font-family="Arial" font-size="14.00">&#45; compute_stats(&amp;self) &#45;&gt; Result&lt;BTreeMap&lt;String, (f64, f64)&gt;&gt;</text>
+<text text-anchor="start" x="13181" y="-1308.8" font-family="Arial" font-size="14.00">&#45; execute(&amp;self) &#45;&gt; Result&lt;BTreeMap&lt;String, BTreeMap&lt;String, u64&gt;&gt;&gt;</text>
+<text text-anchor="start" x="13181" y="-1293.8" font-family="Arial" font-size="14.00">&#45; fmt(&amp;self, f: &amp;mut fmt::Formatter) &#45;&gt; fmt::Result</text>
+<polygon fill="none" stroke="black" points="13169,-1278 13169,-1616 14307,-1616 14307,-1278 13169,-1278"/>
 </a>
 </g>
 </g>
 <!-- ndIndex&#45;&gt;ndFacetDistribution -->
 <g id="edge86" class="edge"><title>ndIndex&#45;&gt;ndFacetDistribution</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M10928.4,-2675.67C11276.1,-2450.23 11763,-2176.42 12237,-2046 12431.3,-1992.54 12957.6,-2088.86 13143,-2010 13334.7,-1928.46 13500.4,-1753.73 13607.9,-1620.61"/>
-<polygon fill="black" stroke="black" points="13614.3,-1612.7 13611.5,-1623.32 13611.2,-1616.6 13608,-1620.5 13608,-1620.5 13608,-1620.5 13611.2,-1616.6 13604.5,-1617.68 13614.3,-1612.7 13614.3,-1612.7"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M10928.4,-2675.67C11276.1,-2450.23 11763,-2176.42 12237,-2046 12431.3,-1992.54 12957.6,-2088.86 13143,-2010 13331.2,-1929.95 13494.4,-1760.08 13602,-1627.93"/>
+<polygon fill="black" stroke="black" points="13608.4,-1620.08 13605.6,-1630.68 13605.2,-1623.97 13602.1,-1627.85 13602.1,-1627.85 13602.1,-1627.85 13605.2,-1623.97 13598.6,-1625.02 13608.4,-1620.08 13608.4,-1620.08"/>
 </g>
 <!-- ndN2Array -->
 <g id="node104" class="node"><title>ndN2Array</title>
@@ -2475,8 +2476,8 @@
 </g>
 <!-- ndFacetGroupKeyCodec&#45;&gt;ndFacetDistribution -->
 <g id="edge102" class="edge"><title>ndFacetGroupKeyCodec&#45;&gt;ndFacetDistribution</title>
-<path fill="none" stroke="black" d="M15241.5,-4200.76C15811,-4196.55 17276.7,-4170.29 17423,-4012 17460.1,-3971.9 17461.4,-2084.84 17423,-2046 17362.8,-1985.13 14421.5,-2041.79 14342,-2010 14145.4,-1931.36 13974.5,-1756.14 13865.1,-1622.11"/>
-<polygon fill="black" stroke="black" points="13864.9,-1621.85 13858,-1619.71 13857.3,-1612.53 13864.2,-1614.67 13864.9,-1621.85"/>
+<path fill="none" stroke="black" d="M15241.5,-4200.76C15811,-4196.55 17276.7,-4170.29 17423,-4012 17460.1,-3971.9 17461.4,-2084.84 17423,-2046 17362.8,-1985.13 14421.5,-2041.79 14342,-2010 14149.1,-1932.85 13981,-1762.76 13871.4,-1629.79"/>
+<polygon fill="black" stroke="black" points="13871.2,-1629.56 13864.3,-1627.46 13863.6,-1620.28 13870.5,-1622.39 13871.2,-1629.56"/>
 </g>
 <!-- ndFacetRangeSearch -->
 <g id="node96" class="node"><title>ndFacetRangeSearch</title>
@@ -2753,8 +2754,8 @@
 </g>
 <!-- ndFacetType&#45;&gt;ndFacetDistribution -->
 <g id="edge122" class="edge"><title>ndFacetType&#45;&gt;ndFacetDistribution</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M12292.9,-4126.8C12269,-3764.1 12174.8,-2198.03 12322,-2046 12386.2,-1979.68 13067.1,-2046.28 13152,-2010 13343.6,-1928.11 13509.3,-1753.44 13615.1,-1620.42"/>
-<polygon fill="black" stroke="black" points="13621.4,-1612.52 13618.7,-1623.16 13618.3,-1616.44 13615.2,-1620.36 13615.2,-1620.36 13615.2,-1620.36 13618.3,-1616.44 13611.6,-1617.57 13621.4,-1612.52 13621.4,-1612.52"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M12292.9,-4126.8C12269,-3764.1 12174.8,-2198.03 12322,-2046 12386.2,-1979.68 13067.1,-2046.28 13152,-2010 13339.9,-1929.68 13503,-1760.07 13609,-1628.08"/>
+<polygon fill="black" stroke="black" points="13615.3,-1620.23 13612.5,-1630.86 13612.1,-1624.14 13609,-1628.05 13609,-1628.05 13609,-1628.05 13612.1,-1624.14 13605.5,-1625.24 13615.3,-1620.23 13615.3,-1620.23"/>
 </g>
 <!-- ndExternalDocumentsIds -->
 <g id="node71" class="node"><title>ndExternalDocumentsIds</title>
@@ -3268,7 +3269,7 @@
 </g>
 <!-- ndFacetDistribution&#45;&gt;ndIndex -->
 <g id="edge149" class="edge"><title>ndFacetDistribution&#45;&gt;ndIndex</title>
-<path fill="none" stroke="black" d="M13628.6,-1612.7C13525,-1746.74 13356.5,-1926.84 13161,-2010 12975.6,-2088.86 12449.3,-1992.54 12255,-2046 11778,-2177.25 11287.9,-2453.72 10936.9,-2679.96"/>
+<path fill="none" stroke="black" d="M13622.9,-1620.08C13518.8,-1753.28 13353,-1928.35 13161,-2010 12975.6,-2088.86 12449.3,-1992.54 12255,-2046 11778,-2177.25 11287.9,-2453.72 10936.9,-2679.96"/>
 <polygon fill="black" stroke="black" points="10928.4,-2685.47 10934.3,-2676.26 10932.6,-2682.76 10936.8,-2680.04 10936.8,-2680.04 10936.8,-2680.04 10932.6,-2682.76 10939.2,-2683.82 10928.4,-2685.47 10928.4,-2685.47"/>
 </g>
 <!-- ndFacetDistribution&#45;&gt;ndFacetDistribution -->

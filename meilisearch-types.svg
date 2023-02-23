@@ -99,8 +99,8 @@
 <text text-anchor="start" x="2575" y="-1735.3" font-family="Arial" font-weight="bold" font-size="14.00">ResponseError</text>
 <polygon fill="white" stroke="none" points="2446.5,-1622.5 2446.5,-1719.5 2810.5,-1719.5 2810.5,-1622.5 2446.5,-1622.5"/>
 <polygon fill="none" stroke="black" points="2446.5,-1622.5 2446.5,-1719.5 2810.5,-1719.5 2810.5,-1622.5 2446.5,-1622.5"/>
-<text text-anchor="start" x="2457.5" y="-1697.3" font-family="Arial" font-size="14.00">&#45; code: StatusCode</text>
-<text text-anchor="start" x="2457.5" y="-1682.3" font-family="Arial" font-size="14.00">&#45; message: String</text>
+<text text-anchor="start" x="2457.5" y="-1697.3" font-family="Arial" font-size="14.00">+ code: StatusCode</text>
+<text text-anchor="start" x="2457.5" y="-1682.3" font-family="Arial" font-size="14.00">+ message: String</text>
 <text text-anchor="start" x="2457.5" y="-1667.3" font-family="Arial" font-size="14.00">&#45; error_code: String</text>
 <text text-anchor="start" x="2457.5" y="-1652.3" font-family="Arial" font-size="14.00">&#45; error_type: String</text>
 <text text-anchor="start" x="2457.5" y="-1637.3" font-family="Arial" font-size="14.00">&#45; error_link: String</text>
