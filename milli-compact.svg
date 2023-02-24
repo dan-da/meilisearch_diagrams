@@ -1264,31 +1264,32 @@
 <!-- ndIndexerConfig -->
 <g id="node43" class="node"><title>ndIndexerConfig</title>
 <g id="a_node43_57"><a xlink:href="https://github.com/meilisearch/meilisearch//blob/master/src/update/indexer_config.rs#:~:text=struct%20IndexerConfig" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="none" points="2680.5,-1211.5 2680.5,-1248.5 3002.5,-1248.5 3002.5,-1211.5 2680.5,-1211.5"/>
-<polygon fill="none" stroke="black" points="2680.5,-1211.5 2680.5,-1248.5 3002.5,-1248.5 3002.5,-1211.5 2680.5,-1211.5"/>
-<text text-anchor="start" x="2792" y="-1227.3" font-family="Arial" font-weight="bold" font-size="14.00">IndexerConfig</text>
-<polygon fill="white" stroke="none" points="2680.5,-1069.5 2680.5,-1211.5 3002.5,-1211.5 3002.5,-1069.5 2680.5,-1069.5"/>
-<polygon fill="none" stroke="black" points="2680.5,-1069.5 2680.5,-1211.5 3002.5,-1211.5 3002.5,-1069.5 2680.5,-1069.5"/>
-<text text-anchor="start" x="2691.5" y="-1189.3" font-family="Arial" font-size="14.00">+ log_every_n: Option&lt;usize&gt;</text>
-<text text-anchor="start" x="2691.5" y="-1174.3" font-family="Arial" font-size="14.00">+ max_nb_chunks: Option&lt;usize&gt;</text>
-<text text-anchor="start" x="2691.5" y="-1159.3" font-family="Arial" font-size="14.00">+ documents_chunk_size: Option&lt;usize&gt;</text>
-<text text-anchor="start" x="2691.5" y="-1144.3" font-family="Arial" font-size="14.00">+ max_memory: Option&lt;usize&gt;</text>
-<text text-anchor="start" x="2691.5" y="-1129.3" font-family="Arial" font-size="14.00">+ chunk_compression_type: CompressionType</text>
-<text text-anchor="start" x="2691.5" y="-1114.3" font-family="Arial" font-size="14.00">+ chunk_compression_level: Option&lt;u32&gt;</text>
-<text text-anchor="start" x="2691.5" y="-1099.3" font-family="Arial" font-size="14.00">+ thread_pool: Option&lt;ThreadPool&gt;</text>
-<text text-anchor="start" x="2691.5" y="-1084.3" font-family="Arial" font-size="14.00">+ max_positions_per_attributes: Option&lt;u32&gt;</text>
-<polygon fill="none" stroke="black" points="2679.5,-1069 2679.5,-1250 3003.5,-1250 3003.5,-1069 2679.5,-1069"/>
+<polygon fill="lightblue" stroke="none" points="2680.5,-1219.5 2680.5,-1256.5 3002.5,-1256.5 3002.5,-1219.5 2680.5,-1219.5"/>
+<polygon fill="none" stroke="black" points="2680.5,-1219.5 2680.5,-1256.5 3002.5,-1256.5 3002.5,-1219.5 2680.5,-1219.5"/>
+<text text-anchor="start" x="2792" y="-1235.3" font-family="Arial" font-weight="bold" font-size="14.00">IndexerConfig</text>
+<polygon fill="white" stroke="none" points="2680.5,-1062.5 2680.5,-1219.5 3002.5,-1219.5 3002.5,-1062.5 2680.5,-1062.5"/>
+<polygon fill="none" stroke="black" points="2680.5,-1062.5 2680.5,-1219.5 3002.5,-1219.5 3002.5,-1062.5 2680.5,-1062.5"/>
+<text text-anchor="start" x="2691.5" y="-1197.3" font-family="Arial" font-size="14.00">+ log_every_n: Option&lt;usize&gt;</text>
+<text text-anchor="start" x="2691.5" y="-1182.3" font-family="Arial" font-size="14.00">+ max_nb_chunks: Option&lt;usize&gt;</text>
+<text text-anchor="start" x="2691.5" y="-1167.3" font-family="Arial" font-size="14.00">+ documents_chunk_size: Option&lt;usize&gt;</text>
+<text text-anchor="start" x="2691.5" y="-1152.3" font-family="Arial" font-size="14.00">+ max_memory: Option&lt;usize&gt;</text>
+<text text-anchor="start" x="2691.5" y="-1137.3" font-family="Arial" font-size="14.00">+ chunk_compression_type: CompressionType</text>
+<text text-anchor="start" x="2691.5" y="-1122.3" font-family="Arial" font-size="14.00">+ chunk_compression_level: Option&lt;u32&gt;</text>
+<text text-anchor="start" x="2691.5" y="-1107.3" font-family="Arial" font-size="14.00">+ thread_pool: Option&lt;ThreadPool&gt;</text>
+<text text-anchor="start" x="2691.5" y="-1092.3" font-family="Arial" font-size="14.00">+ max_positions_per_attributes: Option&lt;u32&gt;</text>
+<text text-anchor="start" x="2691.5" y="-1077.3" font-family="Arial" font-size="14.00">+ skip_index_budget: bool</text>
+<polygon fill="none" stroke="black" points="2679.5,-1061.5 2679.5,-1257.5 3003.5,-1257.5 3003.5,-1061.5 2679.5,-1061.5"/>
 </a>
 </g>
 </g>
 <!-- ndIndexerConfig&#45;&gt;ndIndexDocuments -->
 <g id="edge56" class="edge"><title>ndIndexerConfig&#45;&gt;ndIndexDocuments</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2829.35,-1064.94C2824.8,-1026.05 2820.11,-980.415 2817.5,-939 2801.2,-679.933 2800.84,-374.877 2802.11,-214.491"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2828.46,-1057.31C2824.2,-1020.17 2819.94,-977.737 2817.5,-939 2801.2,-679.933 2800.84,-374.877 2802.11,-214.491"/>
 <polygon fill="black" stroke="black" points="2802.19,-204.138 2806.61,-214.175 2802.15,-209.138 2802.11,-214.138 2802.11,-214.138 2802.11,-214.138 2802.15,-209.138 2797.61,-214.101 2802.19,-204.138 2802.19,-204.138"/>
 </g>
 <!-- ndIndexerConfig&#45;&gt;ndTransform -->
 <g id="edge57" class="edge"><title>ndIndexerConfig&#45;&gt;ndTransform</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2833.03,-1064.96C2820.9,-911.069 2805.56,-612.764 2859.5,-525 2865.61,-515.051 2872.58,-505.681 2880.23,-496.861"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2832.44,-1057.46C2820.43,-901.565 2806.43,-611.358 2859.5,-525 2865.61,-515.051 2872.58,-505.681 2880.23,-496.861"/>
 <polygon fill="black" stroke="black" points="2887.12,-489.25 2883.75,-499.682 2883.77,-492.956 2880.41,-496.662 2880.41,-496.662 2880.41,-496.662 2883.77,-492.956 2877.08,-493.641 2887.12,-489.25 2887.12,-489.25"/>
 </g>
 <!-- ndSettings -->
@@ -1324,8 +1325,8 @@
 </g>
 <!-- ndIndexerConfig&#45;&gt;ndSettings -->
 <g id="edge58" class="edge"><title>ndIndexerConfig&#45;&gt;ndSettings</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2889.26,-1064.86C2911.27,-1021.69 2938.2,-968.878 2964.06,-918.186"/>
-<polygon fill="black" stroke="black" points="2968.7,-909.08 2968.17,-920.033 2966.43,-913.535 2964.16,-917.989 2964.16,-917.989 2964.16,-917.989 2966.43,-913.535 2960.15,-915.944 2968.7,-909.08 2968.7,-909.08"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2893.06,-1057.39C2914.36,-1015.63 2939.75,-965.855 2964.16,-917.989"/>
+<polygon fill="black" stroke="black" points="2968.7,-909.076 2968.17,-920.029 2966.43,-913.531 2964.16,-917.985 2964.16,-917.985 2964.16,-917.985 2966.43,-913.531 2960.15,-915.94 2968.7,-909.076 2968.7,-909.076"/>
 </g>
 <!-- ndWordsPrefixesFst -->
 <g id="node44" class="node"><title>ndWordsPrefixesFst</title>
