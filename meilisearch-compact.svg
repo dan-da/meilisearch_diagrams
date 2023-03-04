@@ -76,46 +76,47 @@
 <!-- ndSearchAggregator -->
 <g id="node26" class="node"><title>ndSearchAggregator</title>
 <g id="a_node26_2"><a xlink:href="https://github.com/meilisearch/meilisearch//blob/master/src/analytics/segment_analytics.rs#:~:text=struct%20SearchAggregator" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="none" points="1161,-1204.5 1161,-1241.5 1468,-1241.5 1468,-1204.5 1161,-1204.5"/>
-<polygon fill="none" stroke="black" points="1161,-1204.5 1161,-1241.5 1468,-1241.5 1468,-1204.5 1161,-1204.5"/>
-<text text-anchor="start" x="1250" y="-1220.3" font-family="Arial" font-weight="bold" font-size="14.00">SearchAggregator</text>
-<polygon fill="white" stroke="none" points="1161,-777.5 1161,-1204.5 1468,-1204.5 1468,-777.5 1161,-777.5"/>
-<polygon fill="none" stroke="black" points="1161,-777.5 1161,-1204.5 1468,-1204.5 1468,-777.5 1161,-777.5"/>
-<text text-anchor="start" x="1172" y="-1182.3" font-family="Arial" font-size="14.00">&#45; timestamp: Option&lt;OffsetDateTime&gt;</text>
-<text text-anchor="start" x="1172" y="-1167.3" font-family="Arial" font-size="14.00">&#45; user_agents: HashSet&lt;String&gt;</text>
-<text text-anchor="start" x="1172" y="-1152.3" font-family="Arial" font-size="14.00">&#45; total_received: usize</text>
-<text text-anchor="start" x="1172" y="-1137.3" font-family="Arial" font-size="14.00">&#45; total_succeeded: usize</text>
-<text text-anchor="start" x="1172" y="-1122.3" font-family="Arial" font-size="14.00">&#45; time_spent: BinaryHeap&lt;usize&gt;</text>
-<text text-anchor="start" x="1172" y="-1107.3" font-family="Arial" font-size="14.00">&#45; sort_with_geo_point: bool</text>
-<text text-anchor="start" x="1172" y="-1092.3" font-family="Arial" font-size="14.00">&#45; sort_sum_of_criteria_terms: usize</text>
-<text text-anchor="start" x="1172" y="-1077.3" font-family="Arial" font-size="14.00">&#45; sort_total_number_of_criteria: usize</text>
-<text text-anchor="start" x="1172" y="-1062.3" font-family="Arial" font-size="14.00">&#45; filter_with_geo_radius: bool</text>
-<text text-anchor="start" x="1172" y="-1047.3" font-family="Arial" font-size="14.00">&#45; filter_sum_of_criteria_terms: usize</text>
-<text text-anchor="start" x="1172" y="-1032.3" font-family="Arial" font-size="14.00">&#45; filter_total_number_of_criteria: usize</text>
-<text text-anchor="start" x="1172" y="-1017.3" font-family="Arial" font-size="14.00">&#45; used_syntax: HashMap&lt;String, usize&gt;</text>
-<text text-anchor="start" x="1172" y="-1002.3" font-family="Arial" font-size="14.00">&#45; max_terms_number: usize</text>
-<text text-anchor="start" x="1172" y="-987.3" font-family="Arial" font-size="14.00">&#45; matching_strategy: HashMap&lt;String, usize&gt;</text>
-<text text-anchor="start" x="1172" y="-972.3" font-family="Arial" font-size="14.00">&#45; max_limit: usize</text>
-<text text-anchor="start" x="1172" y="-957.3" font-family="Arial" font-size="14.00">&#45; max_offset: usize</text>
-<text text-anchor="start" x="1172" y="-942.3" font-family="Arial" font-size="14.00">&#45; finite_pagination: usize</text>
-<text text-anchor="start" x="1172" y="-927.3" font-family="Arial" font-size="14.00">&#45; max_attributes_to_retrieve: usize</text>
-<text text-anchor="start" x="1172" y="-912.3" font-family="Arial" font-size="14.00">&#45; max_attributes_to_highlight: usize</text>
-<text text-anchor="start" x="1172" y="-897.3" font-family="Arial" font-size="14.00">&#45; highlight_pre_tag: bool</text>
-<text text-anchor="start" x="1172" y="-882.3" font-family="Arial" font-size="14.00">&#45; highlight_post_tag: bool</text>
-<text text-anchor="start" x="1172" y="-867.3" font-family="Arial" font-size="14.00">&#45; max_attributes_to_crop: usize</text>
-<text text-anchor="start" x="1172" y="-852.3" font-family="Arial" font-size="14.00">&#45; crop_marker: bool</text>
-<text text-anchor="start" x="1172" y="-837.3" font-family="Arial" font-size="14.00">&#45; show_matches_position: bool</text>
-<text text-anchor="start" x="1172" y="-822.3" font-family="Arial" font-size="14.00">&#45; crop_length: bool</text>
-<text text-anchor="start" x="1172" y="-807.3" font-family="Arial" font-size="14.00">&#45; facets_sum_of_terms: usize</text>
-<text text-anchor="start" x="1172" y="-792.3" font-family="Arial" font-size="14.00">&#45; facets_total_number_of_facets: usize</text>
-<polygon fill="none" stroke="black" points="1159.5,-776.5 1159.5,-1242.5 1468.5,-1242.5 1468.5,-776.5 1159.5,-776.5"/>
+<polygon fill="lightblue" stroke="none" points="1161,-1211.5 1161,-1248.5 1468,-1248.5 1468,-1211.5 1161,-1211.5"/>
+<polygon fill="none" stroke="black" points="1161,-1211.5 1161,-1248.5 1468,-1248.5 1468,-1211.5 1161,-1211.5"/>
+<text text-anchor="start" x="1250" y="-1227.3" font-family="Arial" font-weight="bold" font-size="14.00">SearchAggregator</text>
+<polygon fill="white" stroke="none" points="1161,-769.5 1161,-1211.5 1468,-1211.5 1468,-769.5 1161,-769.5"/>
+<polygon fill="none" stroke="black" points="1161,-769.5 1161,-1211.5 1468,-1211.5 1468,-769.5 1161,-769.5"/>
+<text text-anchor="start" x="1172" y="-1189.3" font-family="Arial" font-size="14.00">&#45; timestamp: Option&lt;OffsetDateTime&gt;</text>
+<text text-anchor="start" x="1172" y="-1174.3" font-family="Arial" font-size="14.00">&#45; user_agents: HashSet&lt;String&gt;</text>
+<text text-anchor="start" x="1172" y="-1159.3" font-family="Arial" font-size="14.00">&#45; total_received: usize</text>
+<text text-anchor="start" x="1172" y="-1144.3" font-family="Arial" font-size="14.00">&#45; total_succeeded: usize</text>
+<text text-anchor="start" x="1172" y="-1129.3" font-family="Arial" font-size="14.00">&#45; time_spent: BinaryHeap&lt;usize&gt;</text>
+<text text-anchor="start" x="1172" y="-1114.3" font-family="Arial" font-size="14.00">&#45; sort_with_geo_point: bool</text>
+<text text-anchor="start" x="1172" y="-1099.3" font-family="Arial" font-size="14.00">&#45; sort_sum_of_criteria_terms: usize</text>
+<text text-anchor="start" x="1172" y="-1084.3" font-family="Arial" font-size="14.00">&#45; sort_total_number_of_criteria: usize</text>
+<text text-anchor="start" x="1172" y="-1069.3" font-family="Arial" font-size="14.00">&#45; filter_with_geo_radius: bool</text>
+<text text-anchor="start" x="1172" y="-1054.3" font-family="Arial" font-size="14.00">&#45; filter_with_geo_bounding_box: bool</text>
+<text text-anchor="start" x="1172" y="-1039.3" font-family="Arial" font-size="14.00">&#45; filter_sum_of_criteria_terms: usize</text>
+<text text-anchor="start" x="1172" y="-1024.3" font-family="Arial" font-size="14.00">&#45; filter_total_number_of_criteria: usize</text>
+<text text-anchor="start" x="1172" y="-1009.3" font-family="Arial" font-size="14.00">&#45; used_syntax: HashMap&lt;String, usize&gt;</text>
+<text text-anchor="start" x="1172" y="-994.3" font-family="Arial" font-size="14.00">&#45; max_terms_number: usize</text>
+<text text-anchor="start" x="1172" y="-979.3" font-family="Arial" font-size="14.00">&#45; matching_strategy: HashMap&lt;String, usize&gt;</text>
+<text text-anchor="start" x="1172" y="-964.3" font-family="Arial" font-size="14.00">&#45; max_limit: usize</text>
+<text text-anchor="start" x="1172" y="-949.3" font-family="Arial" font-size="14.00">&#45; max_offset: usize</text>
+<text text-anchor="start" x="1172" y="-934.3" font-family="Arial" font-size="14.00">&#45; finite_pagination: usize</text>
+<text text-anchor="start" x="1172" y="-919.3" font-family="Arial" font-size="14.00">&#45; max_attributes_to_retrieve: usize</text>
+<text text-anchor="start" x="1172" y="-904.3" font-family="Arial" font-size="14.00">&#45; max_attributes_to_highlight: usize</text>
+<text text-anchor="start" x="1172" y="-889.3" font-family="Arial" font-size="14.00">&#45; highlight_pre_tag: bool</text>
+<text text-anchor="start" x="1172" y="-874.3" font-family="Arial" font-size="14.00">&#45; highlight_post_tag: bool</text>
+<text text-anchor="start" x="1172" y="-859.3" font-family="Arial" font-size="14.00">&#45; max_attributes_to_crop: usize</text>
+<text text-anchor="start" x="1172" y="-844.3" font-family="Arial" font-size="14.00">&#45; crop_marker: bool</text>
+<text text-anchor="start" x="1172" y="-829.3" font-family="Arial" font-size="14.00">&#45; show_matches_position: bool</text>
+<text text-anchor="start" x="1172" y="-814.3" font-family="Arial" font-size="14.00">&#45; crop_length: bool</text>
+<text text-anchor="start" x="1172" y="-799.3" font-family="Arial" font-size="14.00">&#45; facets_sum_of_terms: usize</text>
+<text text-anchor="start" x="1172" y="-784.3" font-family="Arial" font-size="14.00">&#45; facets_total_number_of_facets: usize</text>
+<polygon fill="none" stroke="black" points="1159.5,-769 1159.5,-1250 1468.5,-1250 1468.5,-769 1159.5,-769"/>
 </a>
 </g>
 </g>
 <!-- ndSearchQuery&#45;&gt;ndSearchAggregator -->
 <g id="edge2" class="edge"><title>ndSearchQuery&#45;&gt;ndSearchAggregator</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M438.234,-1293.65C441.142,-1292.37 444.065,-1291.15 447,-1290 590.917,-1233.39 1006.56,-1328.66 1142,-1254 1143.18,-1253.35 1144.35,-1252.69 1145.52,-1252.01"/>
-<polygon fill="black" stroke="black" points="1154.34,-1246.63 1148.15,-1255.68 1150.08,-1249.23 1145.81,-1251.84 1145.81,-1251.84 1145.81,-1251.84 1150.08,-1249.23 1143.46,-1248 1154.34,-1246.63 1154.34,-1246.63"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M438.234,-1293.65C441.142,-1292.37 444.065,-1291.15 447,-1290 590.917,-1233.39 1006.56,-1328.66 1142,-1254 1142.2,-1253.89 1142.4,-1253.78 1142.59,-1253.67"/>
+<polygon fill="black" stroke="black" points="1151.38,-1248.5 1145.05,-1257.45 1147.07,-1251.04 1142.76,-1253.57 1142.76,-1253.57 1142.76,-1253.57 1147.07,-1251.04 1140.48,-1249.69 1151.38,-1248.5 1151.38,-1248.5"/>
 </g>
 <!-- ndSearchQueries -->
 <g id="node60" class="node"><title>ndSearchQueries</title>
@@ -252,8 +253,8 @@
 </g>
 <!-- ndSearchResult&#45;&gt;ndSearchAggregator -->
 <g id="edge9" class="edge"><title>ndSearchResult&#45;&gt;ndSearchAggregator</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1814.7,-1402.68C1705.66,-1372.86 1581.29,-1326.07 1485,-1254 1484.5,-1253.63 1484,-1253.25 1483.5,-1252.87"/>
-<polygon fill="black" stroke="black" points="1475.5,-1246.58 1486.14,-1249.22 1479.43,-1249.67 1483.36,-1252.76 1483.36,-1252.76 1483.36,-1252.76 1479.43,-1249.67 1480.58,-1256.3 1475.5,-1246.58 1475.5,-1246.58"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1814.7,-1402.68C1705.66,-1372.86 1581.29,-1326.07 1485,-1254 1484.91,-1253.93 1484.83,-1253.87 1484.74,-1253.8"/>
+<polygon fill="black" stroke="black" points="1476.71,-1247.56 1487.37,-1250.15 1480.66,-1250.63 1484.6,-1253.7 1484.6,-1253.7 1484.6,-1253.7 1480.66,-1250.63 1481.84,-1257.25 1476.71,-1247.56 1476.71,-1247.56"/>
 </g>
 <!-- ndSearchResults -->
 <g id="node59" class="node"><title>ndSearchResults</title>
@@ -671,12 +672,12 @@
 </g>
 <!-- ndSearchAggregator&#45;&gt;ndSegmentAnalytics -->
 <g id="edge23" class="edge"><title>ndSearchAggregator&#45;&gt;ndSegmentAnalytics</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1218.3,-772.452C1139.04,-576.974 1031.75,-312.34 982.594,-191.093"/>
-<polygon fill="black" stroke="black" points="978.73,-181.562 986.657,-189.139 980.608,-186.196 982.487,-190.83 982.487,-190.83 982.487,-190.83 980.608,-186.196 978.317,-192.52 978.73,-181.562 978.73,-181.562"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1215.23,-764.879C1136.34,-570.298 1031.23,-311.06 982.672,-191.287"/>
+<polygon fill="black" stroke="black" points="978.853,-181.867 986.781,-189.443 980.732,-186.5 982.61,-191.134 982.61,-191.134 982.61,-191.134 980.732,-186.5 978.44,-192.825 978.853,-181.867 978.853,-181.867"/>
 </g>
 <!-- ndSearchAggregator&#45;&gt;ndSegment -->
 <g id="edge24" class="edge"><title>ndSearchAggregator&#45;&gt;ndSegment</title>
-<path fill="none" stroke="black" d="M1301.83,-772.438C1306.6,-615.838 1339.16,-415.817 1458,-285 1532.5,-202.99 1647.41,-162.499 1751.22,-142.763"/>
+<path fill="none" stroke="black" d="M1302.09,-764.744C1307.68,-609.334 1341.1,-413.684 1458,-285 1532.5,-202.99 1647.41,-162.499 1751.22,-142.763"/>
 <polygon fill="black" stroke="black" points="1751.36,-142.736 1756.54,-137.72 1763.17,-140.572 1757.99,-145.589 1751.36,-142.736"/>
 </g>
 <!-- ndMultiSearchAggregator -->
